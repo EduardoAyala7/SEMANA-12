@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Roboto_r';
+    src: url('../fuente/Roboto-Regular.ttf');
+}
+
+*{
+    margin: 0;
+}
+
+.element{
+    background-color: tomato;
+    width: 250px;
+    height: 200px;
+    margin: 60px auto;
+    /*Transformaciones y transiciones*/
+    /* transform: translatex(-100px);*/
+    /* transform: translatey(-100px);*/
+    /* transform: translatex(150px)transform(100px);*/
+    /*transform:rotate(parametros);
+    donde:
+    0-360 deg
+    0-400 grad
+    0-6.28319 rad
+    0-1 turn
+    */
+    transition: 2s;
+}
+
+.element:hover{
+    background-color: rgb(46, 156, 156);
+    width: 400px;
+    transform: translate(120px,100px);
+    transform: rotate(6.28319rad);
+    transform: scale(1.5); /* 200px*1.5=-360px*/
+    border-radius: 10px 160px;
+    font-size: 10px;
+}
+.element h3{
+    font-family: 'Roboto_r',Arial,Helvetica;
+    text-align: center;
+    color: blueviolet;
+    padding: 20px;
+}

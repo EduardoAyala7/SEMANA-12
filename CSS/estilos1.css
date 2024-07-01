@@ -1,0 +1,17 @@
+element{
+    transform: funcion de transformacion(valor(es));
+}
+#recuadro1{
+    transform: rotate(45deg);
+    border-radius: 20px;
+    background-color: #ddd;
+    width: 200px;
+    padding: 10px;
+}
+#recuadro2{
+    transform: rotate(-45deg);
+    border-radius: 20px;
+    background-color: #ddd;
+    width: 200px;
+    padding: 10px;
+}
